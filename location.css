@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+
+
+}
+
+.map{
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    width: center
+;
+}
+
+.title-location img{
+    max-width: 300px;
+    padding-bottom: 50px;
+}
+
+.collapsible {
+    background-color: #ffffff00;
+    color: white;
+    cursor: pointer;
+    padding: px;
+    width: 33%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .collapsible img{
+      max-width: 150px;
+  }
+  
+  .tangerang img{
+      max-height: 200px;
+  }
+  .isi {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    background-color: #ffffff00;
+  }
+  .place{
+      padding: 20px;
+  }
+  .place p{
+      font-size: 30px;
+  }
+  .info{
+      padding-bottom: 30px;
+  }

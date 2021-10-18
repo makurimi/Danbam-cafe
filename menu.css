@@ -1,0 +1,23 @@
+.menu-title img{
+    max-width: 200px;
+    padding-bottom: 50px;
+}
+
+.food{
+    font-family: rubik;
+}
+
+.food h1{
+    font-weight: 100;
+    margin: 50px;
+    font-size: 50px;
+}
+
+.food h3{
+    font-weight: 100;
+
+}
+.food-content img{
+    min-width: 300px;
+    margin: 0px 10px;
+}

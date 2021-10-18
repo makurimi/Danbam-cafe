@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    
+}
+
+body{
+    background-image: url(assets/tembok.png);
+    background-size: 100%
+}
+nav{
+    padding: 10px;
+    padding-top: 25px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 15px;
+    
+}
+input {
+    width: 70%;
+    margin-bottom: 1rem;
+    padding: .5rem;
+    border-radius: .3rem;
+    border: 1px solid #ccc;
+}
+.kanan{
+    text-align: right;
+}
+.kiri{
+    height: 2px;
+    width: auto;
+    text-align: left;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    height: fit-content;
+    font-size: 20px;
+    
+}
+header{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    
+}
+
+footer{
+    color: white;
+}
+.modal-body {
+    border: 5px solid white;
+    border-radius: 25px;
+    background-color: white;
+    color: white;
+    width: 600px;
+    justify-content: center;
+    background-color: transparent ;
+    margin:auto;
+    
+    
+  }
+
+footer{
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+footer p{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.sosmed img{
+    max-height: 40px;
+    width: auto;
+}
+.word{
+    padding-top: 20px;
+}
+.form-control{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:white;
+    width: 100px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 4px;
+    box-shadow: inset white;
+    transition: ease-out 0.3s;
+    outline: none;
+}
+.form-control:hover{
+    color: white;
+    
+}

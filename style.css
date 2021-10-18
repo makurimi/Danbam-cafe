@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-align: center;
+    
+}
+body{
+    background-image: url(assets/tembok.png);
+    background-size: 100%
+}
+nav{
+    padding: 10px;
+    padding-top: 25px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 15px;
+    
+    
+}
+.kanan{
+    text-align: right;
+}
+.kiri{
+    height: 2px;
+    width: auto;
+    text-align: left;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    height: fit-content;
+    font-size: 20px;
+    
+}
+header{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    
+}
+
+.tulisan img{
+    max-width: 500px;
+}
+.slider-container > div > button {
+    height: 100%;
+}
+
+.slider {
+    width: 1280px;
+    height: 768px;
+}
+
+.slider {
+    width: 20%%;
+    height: 20%%;
+    display: flex;
+    overflow: hidden;
+}
+
+.slider-image {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.slider-image img {
+    height: 100%;
+}
+
+.slider-container{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    padding-top: 25px;
+    padding-bottom: 100px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+    
+}
+
+
+.content img{
+    max-height: 400px;
+    width: auto;
+}
+.content-title img{
+    max-width: 250px;
+    height: auto;
+    padding-top: 50px;
+}
+footer{
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+footer p{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.sosmed img{
+    max-height: 40px;
+    width: auto;
+}
+.word{
+    padding-top: 20px;
+}
+.location-section{
+    text-align: center;
+}
+.location-section img{
+    max-width: 300px;
+}
+.kota{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+.kota h2{
+    padding: 10px;
+}
+.city{
+    padding: 10px;
+}
+.city h2{
+    font-size: 30px;
+}
+.city li{
+    font-size: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 25%;
+    border-style: solid;
+    margin: 10px;
+    justify-content: center;
+    
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+    background-color:transparent;
+    fill:transparent;
+  }
+  .tulisan-atas{
+      color:#fff;
+      font-size: 23px;
+  }
+  .tulisan-bawah{
+      font-size: 13px;
+  }
+  .container p{
+      color:#fff;
+      font-family: "Comic Sans MS", "Comic Sans", cursive ;
+      
+  }
+    
+}
+.title-promotion img{
+    max-width: 500px;
+}
+
+.menu-button:hover {
+    color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px white;
+}

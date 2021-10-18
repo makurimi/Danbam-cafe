@@ -1,0 +1,23 @@
+.photo img{
+    width: 500px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    float: left;
+}
+
+.photo p{
+    margin-bottom: 250px;
+    margin-right: 20px;
+    text-align: justify;
+    font-size: 30px;
+}
+
+.judul img{
+    max-width: 300px;
+    padding-bottom: 50px;
+}
+
+.footer-area{
+    padding-top: 70px;
+}
